@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="chr" ID="{8C8B6D9E-E7A9-43BD-9EE5-F63CC130E39C}" ShortID="395999706">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="CHR" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="fts" ID="{41105D5C-B301-421A-BF86-875D242994E6}" ShortID="507997762">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BCF1DE12-857F-416A-9914-D43B81DDCFCF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}" WorkUnitID="{AFC0A081-CA03-478C-B292-1A31B2C2ECEA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="fts_surface" ID="{DEA8027D-86BC-4A4E-AAEA-9F0D25C3EDE6}" WorkUnitID="{AFC0A081-CA03-478C-B292-1A31B2C2ECEA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}" ShortID="78008767">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UEWWISEFootsteps_Metal_1" ID="{039636E0-FE9C-4C1E-B153-8D0425AA148C}" ShortID="324397051">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_1" ID="{28627D54-5554-4B0F-934F-413D9F7FDBEA}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="760435278"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_1" ID="{28627D54-5554-4B0F-934F-413D9F7FDBEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Metal_2" ID="{CE7E85DF-698C-435E-B639-661582AE6E20}" ShortID="714238081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_2" ID="{5858EBA7-6A67-4160-BDCD-5F984489E8C6}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="384239733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_2" ID="{5858EBA7-6A67-4160-BDCD-5F984489E8C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Metal_3" ID="{B88FECC9-E899-40FD-AB91-336D820A7188}" ShortID="68398044">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_3" ID="{841148CA-BEF1-4BD6-9866-1141505C35BB}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665744122"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_3" ID="{841148CA-BEF1-4BD6-9866-1141505C35BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Metal_4" ID="{A6C33E31-3995-43DC-BA2F-0F62D29AFC99}" ShortID="673866770">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_4" ID="{58C7540F-AF4C-4CE3-9514-7521D69CEC52}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="918703429"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_4" ID="{58C7540F-AF4C-4CE3-9514-7521D69CEC52}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Metal_5" ID="{6FFABDDA-1FD2-4AC9-899A-BE5A23F5E4D5}" ShortID="301556905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_5" ID="{D6F106F2-5B4E-427F-8C7B-5666560A3768}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1026172683"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_5" ID="{D6F106F2-5B4E-427F-8C7B-5666560A3768}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Metal_6" ID="{72DB9EBB-5518-4D4E-9F69-C2EEAE9AFAC0}" ShortID="265074030">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Metal_6" ID="{D6AC9688-304B-4A23-B73B-1580E69A5E1B}">
+													<Language>SFX</Language>
+													<AudioFile>Metal\UEWWISEFootsteps_Metal_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56490938"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Metal_6" ID="{D6AC9688-304B-4A23-B73B-1580E69A5E1B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}" ShortID="920835158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UEWWISEFootsteps_Wood_1" ID="{E722DC40-AE50-48D1-9265-64F624AF20DE}" ShortID="499047799">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_1" ID="{48D00A0C-0B55-4781-87B1-3D3898532C63}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="549930857"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_1" ID="{48D00A0C-0B55-4781-87B1-3D3898532C63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Wood_2" ID="{FF8E8DDD-1F4E-4E2A-8519-CAF70940D9CF}" ShortID="777576295">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_2" ID="{E1C0D212-C5F4-4A85-A69C-9A75BF8065B7}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="295546541"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_2" ID="{E1C0D212-C5F4-4A85-A69C-9A75BF8065B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Wood_3" ID="{468BFA96-91EC-4A92-A7FC-2453DFEBF8F5}" ShortID="382996705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_3" ID="{149F81FC-1EBC-4E8E-8F2F-5FF72B7F46AF}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="760645365"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_3" ID="{149F81FC-1EBC-4E8E-8F2F-5FF72B7F46AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Wood_4" ID="{749E6413-B1D0-4BB0-8286-3D78F5899254}" ShortID="314121633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_4" ID="{F4BC4235-4AF9-4602-830A-C5B9ABE86472}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="822167276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_4" ID="{F4BC4235-4AF9-4602-830A-C5B9ABE86472}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Wood_5" ID="{2900CC96-F4C2-46A6-8D1B-4DFE52F5CF5E}" ShortID="579495757">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_5" ID="{80BD4C44-1BDF-498E-A979-4D37B562AEF5}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="63066702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_5" ID="{80BD4C44-1BDF-498E-A979-4D37B562AEF5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEWWISEFootsteps_Wood_6" ID="{DEE33DB6-9520-479F-B4B7-927C69C29C7B}" ShortID="251526867">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEWWISEFootsteps_Wood_6" ID="{FAC1922A-292C-49CF-ADC8-F6D03D63277C}">
+													<Language>SFX</Language>
+													<AudioFile>Wood\UEWWISEFootsteps_Wood_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1021835013"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEWWISEFootsteps_Wood_6" ID="{FAC1922A-292C-49CF-ADC8-F6D03D63277C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}" ShortID="411418396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UEFPS_Footsteps_Stone_1" ID="{8D45D137-F6FC-4F9D-AA23-5B8DE7CD7527}" ShortID="901065508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_1" ID="{B1ABB626-8A3B-4361-9690-F4946D58F945}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="439380728"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_1" ID="{B1ABB626-8A3B-4361-9690-F4946D58F945}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_2" ID="{D79C5756-5F5B-439C-8F2E-0FCBCFD79B35}" ShortID="91933905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_2" ID="{385EF2A1-4083-46C5-A101-8886524CC256}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1052563221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_2" ID="{385EF2A1-4083-46C5-A101-8886524CC256}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_3" ID="{514030DE-AD34-41AC-BF92-45F18B2D8F0C}" ShortID="605431315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_3" ID="{993B62CE-8320-40B8-A0F0-3DE08007F03D}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="747365922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_3" ID="{993B62CE-8320-40B8-A0F0-3DE08007F03D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_4" ID="{82BFA5D5-49FD-430B-AA3B-345CA42A16A6}" ShortID="834320722">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_4" ID="{B2730863-7637-4017-A846-E4958C34A271}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="183023140"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_4" ID="{B2730863-7637-4017-A846-E4958C34A271}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_5" ID="{0207DFC7-2209-4032-9E81-A5ACE6387F95}" ShortID="202532493">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_5" ID="{F2A6698E-93A1-4432-9C39-B3EB961CB29B}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="294375971"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_5" ID="{F2A6698E-93A1-4432-9C39-B3EB961CB29B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_6" ID="{81C57066-85B8-44D9-A610-B80B0A32CCEE}" ShortID="95346391">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_6" ID="{BB97295A-34EA-46FA-81FF-ED9DD25A4FF3}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199127544"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_6" ID="{BB97295A-34EA-46FA-81FF-ED9DD25A4FF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_7" ID="{50028DA7-A43F-41A3-BF4D-B29706237CB1}" ShortID="697716066">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_7" ID="{AAD673AD-4FB8-4D66-8322-598D1208BEB8}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="805783725"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_7" ID="{AAD673AD-4FB8-4D66-8322-598D1208BEB8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_8" ID="{E1C8F2AA-D4E5-4A2C-8EF3-F5CCB275BDEC}" ShortID="292663865">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_8" ID="{BC7511BC-FD59-491A-974D-85256E7E947E}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816889584"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_8" ID="{BC7511BC-FD59-491A-974D-85256E7E947E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
+										<ItemList>
+											<ItemRef Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{3FC4EF6C-3E6B-4F10-8134-2EEEC968C6E6}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Metal" ID="{E5290A71-883C-4058-8AA0-77ED7C57DF29}"/>
+										<ItemList>
+											<ItemRef Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

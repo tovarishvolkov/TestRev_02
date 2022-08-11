@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AF2B381-50E8-48C2-A05D-F16923EA993A}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0AF2B381-50E8-48C2-A05D-F16923EA993A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="testSoundcaster Session" ID="{58A0B8D5-620C-45B6-90FD-A07D0B95FCCB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="fts" ID="{22735D46-C08C-448D-B74A-A029EF19D4D4}" WorkUnitID="{3136BEED-7446-4028-A4FD-0A4380CE5584}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
+							<Value>0.78740157480315</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
+							<Value>81.1023622047244</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
+							<Value>5.03937007874016</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
+							<Value>18.1102362204724</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
+							<Value>2.36220472440945</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
+							<Value>2.04724409448819</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+							<Value>30.7086614173228</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
+							<Value>6.2992125984252</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+							<Value>34.6456692913386</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

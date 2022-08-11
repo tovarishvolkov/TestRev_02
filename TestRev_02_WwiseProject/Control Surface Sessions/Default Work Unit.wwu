@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65CDDC98-0287-4D28-BBC8-3C6C19AADBDC}" SchemaVersion="103">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="Default Work Unit" ID="{65CDDC98-0287-4D28-BBC8-3C6C19AADBDC}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{C6022640-C54D-491D-B6E7-A2C0741401B2}">
+							<PropertyList>
+								<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~113"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{CD02B7D2-A196-441E-BF84-63EA5C927F40}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~18"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{8E72FA19-FF01-4C5D-94D1-EDD77A297054}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~19"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{8393F76B-BCC4-4F78-829D-736E8725EB26}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~16"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{DBF90320-C4F9-44AA-B4D7-2E89563DB5E9}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~17"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{89056E19-71E3-427C-BF4D-6AD3B0F99D81}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~74"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{849BC5B0-7034-410C-A654-A6B9BB927F29}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~71"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{F5A58A16-E899-4E45-AC6E-CB648E023E68}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~76"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{360760DB-90A1-4011-9302-DAE15FB719ED}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~77"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{C223EA10-19C4-4163-870B-5495AD6019BA}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~93"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{87505D9C-F508-44B2-817E-4C003661AA5D}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~73"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{4E171F0C-0F01-42D2-92C1-D125F302E872}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="4"/>
+							</PropertyList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{9549B09D-5B7A-4ED4-AAC8-3600EA02B237}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBindingGroup Name="Play" ID="{54A01F73-E818-458D-A5F2-EAD713B0A5FA}">
+									<PropertyList>
+										<Property Name="GroupType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<ControlSurfaceBinding Name="Binding" ID="{CF5E67FF-5673-4762-AADF-EB295FE6917C}">
+											<PropertyList>
+												<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~Note-On~48"/>
+												<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+												<Property Name="TargetType" Type="int16" Value="1"/>
+											</PropertyList>
+										</ControlSurfaceBinding>
+									</ChildrenList>
+								</ControlSurfaceBindingGroup>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+					</ChildrenList>
+				</ControlSurfaceSession>
+			</ChildrenList>
+		</WorkUnit>
+	</ControlSurfaceSessions>
+</WwiseDocument>

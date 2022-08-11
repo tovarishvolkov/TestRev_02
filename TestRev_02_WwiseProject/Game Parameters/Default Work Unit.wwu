@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Del" ID="{590DA2C1-FAA5-4222-9A9F-7E6AFDEE7BF6}" ShortID="834016463">
+					<ChildrenList>
+						<GameParameter Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
+						<GameParameter Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
+						<GameParameter Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
+						<GameParameter Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rev" ID="{2A133A67-A280-4B0F-A085-0931A01CBEF7}" ShortID="154340722">
+					<ChildrenList>
+						<GameParameter Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1.2"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="2.25"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+						<GameParameter Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
+						<GameParameter Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
+						<GameParameter Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

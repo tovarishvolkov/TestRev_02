@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4CE5C554-EC0B-4FD7-BA1E-5C0887C78B44}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4CE5C554-EC0B-4FD7-BA1E-5C0887C78B44}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="testSession" ID="{53259295-3596-48B8-8076-CB85AFCEA9F5}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="SFX" ID="{45B27287-7651-4C97-BA8B-937D456B4B7F}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="CHR" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="Del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="Rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
