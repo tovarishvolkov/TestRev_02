@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/",
-   "SourceFilesRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/.cache/Windows/",
-   "SoundBanksRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/Content/WwiseAudio/Windows/",
+   "ProjectRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\TestRev_02\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3161908922",
     "GUID": "{3AEE5BAF-595D-4436-ABCB-E540FC020636}",
     "Language": "SFX",
-    "Hash": "2206538852",
+    "Hash": "120272558",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
@@ -34,121 +34,121 @@
         "Id": "56490938",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_6.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_6_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_6_10C4C929.wem"
        },
        {
         "Id": "63066702",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_5.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_5_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_5_10C4C929.wem"
        },
        {
         "Id": "183023140",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_4.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_4_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_4_10C4C929.wem"
        },
        {
         "Id": "199127544",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_6.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_6_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_6_10C4C929.wem"
        },
        {
         "Id": "294375971",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_5.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_5_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_5_10C4C929.wem"
        },
        {
         "Id": "295546541",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_2.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_2_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_2_10C4C929.wem"
        },
        {
         "Id": "384239733",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_2.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_2_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_2_10C4C929.wem"
        },
        {
         "Id": "439380728",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_1.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_1_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_1_10C4C929.wem"
        },
        {
         "Id": "549930857",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_1.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_1_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_1_10C4C929.wem"
        },
        {
         "Id": "665744122",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_3.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_3_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_3_10C4C929.wem"
        },
        {
         "Id": "747365922",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_3.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_3_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_3_10C4C929.wem"
        },
        {
         "Id": "760435278",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_1.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_1_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_1_10C4C929.wem"
        },
        {
         "Id": "760645365",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_3.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_3_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_3_10C4C929.wem"
        },
        {
         "Id": "805783725",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_7.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_7_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_7_10C4C929.wem"
        },
        {
         "Id": "816889584",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_8.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_8_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_8_10C4C929.wem"
        },
        {
         "Id": "822167276",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_4.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_4_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_4_10C4C929.wem"
        },
        {
         "Id": "918703429",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_4.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_4_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_4_10C4C929.wem"
        },
        {
         "Id": "1021835013",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_6.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_6_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_6_10C4C929.wem"
        },
        {
         "Id": "1026172683",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_5.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_5_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_5_10C4C929.wem"
        },
        {
         "Id": "1052563221",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_2.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_2_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_2_10C4C929.wem"
        }
       ],
       "DefaultSwitchValue": "{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}",

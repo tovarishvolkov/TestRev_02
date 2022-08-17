@@ -12,7 +12,7 @@
 							<ChildrenList>
 								<ControlSurfaceBinding Name="Binding" ID="{CD02B7D2-A196-441E-BF84-63EA5C927F40}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~18"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~18"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -23,7 +23,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{8E72FA19-FF01-4C5D-94D1-EDD77A297054}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~19"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~19"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -34,7 +34,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{8393F76B-BCC4-4F78-829D-736E8725EB26}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~16"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~16"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -45,7 +45,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{DBF90320-C4F9-44AA-B4D7-2E89563DB5E9}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~17"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~17"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -56,7 +56,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{89056E19-71E3-427C-BF4D-6AD3B0F99D81}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~74"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~74"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -67,7 +67,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{849BC5B0-7034-410C-A654-A6B9BB927F29}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~71"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~71"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -78,7 +78,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{F5A58A16-E899-4E45-AC6E-CB648E023E68}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~76"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~76"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -89,7 +89,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{360760DB-90A1-4011-9302-DAE15FB719ED}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~77"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~77"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -100,7 +100,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{C223EA10-19C4-4163-870B-5495AD6019BA}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~93"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~93"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>
@@ -111,7 +111,7 @@
 								</ControlSurfaceBinding>
 								<ControlSurfaceBinding Name="Binding" ID="{87505D9C-F508-44B2-817E-4C003661AA5D}">
 									<PropertyList>
-										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~CC~73"/>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.7~CC~73"/>
 										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
 									</PropertyList>
 									<ReferenceList>

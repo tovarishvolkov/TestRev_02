@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/",
-   "SourceFilesRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/.cache/Windows/",
-   "SoundBanksRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/Content/WwiseAudio/Windows/",
+   "ProjectRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\TestRev_02\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {

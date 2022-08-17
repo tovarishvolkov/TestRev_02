@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/",
-   "SourceFilesRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/.cache/Mac/",
-   "SoundBanksRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Mac/",
+   "ProjectRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Mac"
+   "ExternalSourcesOutputRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
