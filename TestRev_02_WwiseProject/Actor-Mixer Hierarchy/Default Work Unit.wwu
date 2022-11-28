@@ -9,17 +9,11 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="CHR" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-						</Reference>
-						<Reference Name="UserAuxSend1">
-							<ObjectRef Name="Del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+							<ObjectRef Name="chr" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="fts" ID="{41105D5C-B301-421A-BF86-875D242994E6}" ShortID="507997762">
+						<SwitchContainer Name="chr_fts" ID="{41105D5C-B301-421A-BF86-875D242994E6}" ShortID="507997762">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -44,7 +38,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}" WorkUnitID="{AFC0A081-CA03-478C-B292-1A31B2C2ECEA}"/>
+									<ObjectRef Name="fts_surface_stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}" WorkUnitID="{AFC0A081-CA03-478C-B292-1A31B2C2ECEA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
@@ -54,7 +48,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}" ShortID="78008767">
+								<RandomSequenceContainer Name="chr_fts_metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}" ShortID="78008767">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
@@ -205,7 +199,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}" ShortID="920835158">
+								<RandomSequenceContainer Name="chr_fts_wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}" ShortID="920835158">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
@@ -356,7 +350,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}" ShortID="411418396">
+								<RandomSequenceContainer Name="chr_fts_stone" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}" ShortID="411418396">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
@@ -558,32 +552,32 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
+										<ItemRef Name="chr_fts_metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
+										<ItemRef Name="chr_fts_stone" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
+										<ItemRef Name="chr_fts_wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
+										<SwitchRef Name="fts_surface_stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
 										<ItemList>
-											<ItemRef Name="Stone_Steps" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
+											<ItemRef Name="chr_fts_stone" ID="{9CE34D98-39DF-4D39-BB3D-5867C047514C}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Wood" ID="{3FC4EF6C-3E6B-4F10-8134-2EEEC968C6E6}"/>
+										<SwitchRef Name="fts_surface_wood" ID="{3FC4EF6C-3E6B-4F10-8134-2EEEC968C6E6}"/>
 										<ItemList>
-											<ItemRef Name="Wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
+											<ItemRef Name="chr_fts_wood" ID="{73926FC2-150A-41D8-A62E-4E9868323240}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Metal" ID="{E5290A71-883C-4058-8AA0-77ED7C57DF29}"/>
+										<SwitchRef Name="fts_surface_metal" ID="{E5290A71-883C-4058-8AA0-77ED7C57DF29}"/>
 										<ItemList>
-											<ItemRef Name="Metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
+											<ItemRef Name="chr_fts_metal" ID="{8124F240-CF48-4583-A968-6ED3F3F2CF38}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

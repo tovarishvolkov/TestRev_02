@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/",
-   "SourceFilesRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/.cache/Windows/",
-   "SoundBanksRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/Content/WwiseAudio/Windows/",
+   "ProjectRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\TestRev_02\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "D:\\Projects\\TestRev_02\\TestRev_02_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -19,21 +19,21 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "683265388",
+    "Hash": "3969122707",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "IncludedAuxBusses": [
      {
       "Id": "378875104",
-      "Name": "Del",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Del",
+      "Name": "del",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\del",
       "GUID": "{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"
      },
      {
       "Id": "980603520",
-      "Name": "Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev",
+      "Name": "rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\rev",
       "GUID": "{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"
      }
     ],
@@ -41,61 +41,55 @@
      {
       "Id": "20863261",
       "Name": "rev_decay_time",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_decay_time",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_decay_time",
       "GUID": "{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"
      },
      {
       "Id": "366772581",
       "Name": "rev_out_er",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_out_er",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_out_er",
       "GUID": "{B237E68B-A8E6-426E-A65F-BE2D00D20787}"
      },
      {
       "Id": "422411778",
       "Name": "del_crossfeed_r",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Del\\del_crossfeed_r",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_crossfeed_r",
       "GUID": "{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"
      },
      {
       "Id": "422411804",
       "Name": "del_crossfeed_l",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Del\\del_crossfeed_l",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_crossfeed_l",
       "GUID": "{491E0969-4AA3-496E-9310-584677A0725F}"
      },
      {
       "Id": "1192436428",
       "Name": "del_out_wet",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Del\\del_out_wet",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_out_wet",
       "GUID": "{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"
-     },
-     {
-      "Id": "1273220123",
-      "Name": "del_out_dry",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Del\\del_out_dry",
-      "GUID": "{A3899155-A6FB-4201-B5D3-45D2F19C1008}"
      },
      {
       "Id": "1308072702",
       "Name": "rev_hf_damping",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_hf_damping",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_hf_damping",
       "GUID": "{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"
      },
      {
       "Id": "1672330836",
       "Name": "rev_diffusion",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_diffusion",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_diffusion",
       "GUID": "{F238AA67-F22B-4648-9042-B8648D5FF09D}"
      },
      {
       "Id": "2001362676",
       "Name": "rev_out_reverb",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_out_reverb",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_out_reverb",
       "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
      },
      {
       "Id": "2499481230",
       "Name": "rev_stereo_width",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Rev\\rev_stereo_width",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_stereo_width",
       "GUID": "{D26AA081-59E9-489B-9E76-B92F66948141}"
      }
     ]
@@ -104,7 +98,7 @@
     "Id": "3161908922",
     "GUID": "{3AEE5BAF-595D-4436-ABCB-E540FC020636}",
     "Language": "SFX",
-    "Hash": "2206538852",
+    "Hash": "1271294023",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
@@ -122,121 +116,121 @@
         "Id": "56490938",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_6.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_6_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_6_10C4C929.wem"
        },
        {
         "Id": "63066702",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_5.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_5_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_5_10C4C929.wem"
        },
        {
         "Id": "183023140",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_4.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_4_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_4_10C4C929.wem"
        },
        {
         "Id": "199127544",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_6.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_6_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_6_10C4C929.wem"
        },
        {
         "Id": "294375971",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_5.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_5_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_5_10C4C929.wem"
        },
        {
         "Id": "295546541",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_2.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_2_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_2_10C4C929.wem"
        },
        {
         "Id": "384239733",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_2.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_2_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_2_10C4C929.wem"
        },
        {
         "Id": "439380728",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_1.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_1_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_1_10C4C929.wem"
        },
        {
         "Id": "549930857",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_1.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_1_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_1_10C4C929.wem"
        },
        {
         "Id": "665744122",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_3.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_3_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_3_10C4C929.wem"
        },
        {
         "Id": "747365922",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_3.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_3_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_3_10C4C929.wem"
        },
        {
         "Id": "760435278",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_1.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_1_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_1_10C4C929.wem"
        },
        {
         "Id": "760645365",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_3.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_3_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_3_10C4C929.wem"
        },
        {
         "Id": "805783725",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_7.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_7_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_7_10C4C929.wem"
        },
        {
         "Id": "816889584",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_8.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_8_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_8_10C4C929.wem"
        },
        {
         "Id": "822167276",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_4.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_4_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_4_10C4C929.wem"
        },
        {
         "Id": "918703429",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_4.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_4_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_4_10C4C929.wem"
        },
        {
         "Id": "1021835013",
         "Language": "SFX",
         "ShortName": "Wood\\UEWWISEFootsteps_Wood_6.wav",
-        "Path": "SFX/Wood/UEWWISEFootsteps_Wood_6_10C4C929.wem"
+        "Path": "SFX\\Wood\\UEWWISEFootsteps_Wood_6_10C4C929.wem"
        },
        {
         "Id": "1026172683",
         "Language": "SFX",
         "ShortName": "Metal\\UEWWISEFootsteps_Metal_5.wav",
-        "Path": "SFX/Metal/UEWWISEFootsteps_Metal_5_10C4C929.wem"
+        "Path": "SFX\\Metal\\UEWWISEFootsteps_Metal_5_10C4C929.wem"
        },
        {
         "Id": "1052563221",
         "Language": "SFX",
         "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_2.wav",
-        "Path": "SFX/Stone_Steps/UEFPS_Footsteps_Stone_2_10C4C929.wem"
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_2_10C4C929.wem"
        }
       ],
       "DefaultSwitchValue": "{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}",
@@ -316,20 +310,6 @@
          }
         ]
        }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "378875104",
-        "Name": "Del",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Del",
-        "GUID": "{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"
-       },
-       {
-        "Id": "980603520",
-        "Name": "Rev",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev",
-        "GUID": "{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"
-       }
       ]
      }
     ],
@@ -341,21 +321,21 @@
       "GUID": "{DEA8027D-86BC-4A4E-AAEA-9F0D25C3EDE6}",
       "Switches": [
        {
-        "Id": "1216965916",
-        "Name": "Stone",
-        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\Stone",
+        "Id": "1994550636",
+        "Name": "fts_surface_stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\fts_surface_stone",
         "GUID": "{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"
        },
        {
-        "Id": "2058049674",
-        "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\Wood",
+        "Id": "3160186522",
+        "Name": "fts_surface_wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\fts_surface_wood",
         "GUID": "{3FC4EF6C-3E6B-4F10-8134-2EEEC968C6E6}"
        },
        {
-        "Id": "2473969246",
-        "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\Metal",
+        "Id": "2382565134",
+        "Name": "fts_surface_metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\fts_surface\\fts_surface_metal",
         "GUID": "{E5290A71-883C-4058-8AA0-77ED7C57DF29}"
        }
       ]

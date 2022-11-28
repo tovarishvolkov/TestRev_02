@@ -3,7 +3,7 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Del" ID="{590DA2C1-FAA5-4222-9A9F-7E6AFDEE7BF6}" ShortID="834016463">
+				<Folder Name="del" ID="{590DA2C1-FAA5-4222-9A9F-7E6AFDEE7BF6}" ShortID="834016463">
 					<ChildrenList>
 						<GameParameter Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
 						<GameParameter Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
@@ -11,7 +11,7 @@
 						<GameParameter Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Rev" ID="{2A133A67-A280-4B0F-A085-0931A01CBEF7}" ShortID="154340722">
+				<Folder Name="rev" ID="{2A133A67-A280-4B0F-A085-0931A01CBEF7}" ShortID="154340722">
 					<ChildrenList>
 						<GameParameter Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}">
 							<PropertyList>

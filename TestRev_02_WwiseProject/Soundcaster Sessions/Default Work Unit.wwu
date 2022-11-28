@@ -54,7 +54,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
+						<CurrentSwitchRef Name="fts_surface_stone" ID="{5959324A-BD79-49D0-9BC8-CC2AAE8BFFF7}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

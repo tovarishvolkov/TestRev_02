@@ -1,23 +1,22 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	20863261	rev_decay_time			\Default Work Unit\Rev\rev_decay_time	
-	366772581	rev_out_er			\Default Work Unit\Rev\rev_out_er	
-	422411778	del_crossfeed_r			\Default Work Unit\Del\del_crossfeed_r	
-	422411804	del_crossfeed_l			\Default Work Unit\Del\del_crossfeed_l	
-	1192436428	del_out_wet			\Default Work Unit\Del\del_out_wet	
-	1273220123	del_out_dry			\Default Work Unit\Del\del_out_dry	
-	1308072702	rev_hf_damping			\Default Work Unit\Rev\rev_hf_damping	
-	1672330836	rev_diffusion			\Default Work Unit\Rev\rev_diffusion	
-	2001362676	rev_out_reverb			\Default Work Unit\Rev\rev_out_reverb	
-	2499481230	rev_stereo_width			\Default Work Unit\Rev\rev_stereo_width	
+	20863261	rev_decay_time			\Default Work Unit\rev\rev_decay_time	
+	366772581	rev_out_er			\Default Work Unit\rev\rev_out_er	
+	422411778	del_crossfeed_r			\Default Work Unit\del\del_crossfeed_r	
+	422411804	del_crossfeed_l			\Default Work Unit\del\del_crossfeed_l	
+	1192436428	del_out_wet			\Default Work Unit\del\del_out_wet	
+	1308072702	rev_hf_damping			\Default Work Unit\rev\rev_hf_damping	
+	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
+	2001362676	rev_out_reverb			\Default Work Unit\rev\rev_out_reverb	
+	2499481230	rev_stereo_width			\Default Work Unit\rev\rev_stereo_width	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
-	1100459686	CHR			\Default Work Unit\Master Audio Bus\SFX\CHR	
+	393239870	sfx			\Default Work Unit\Master Audio Bus\sfx	
+	1100459686	chr			\Default Work Unit\Master Audio Bus\sfx\chr	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	378875104	Del			\Default Work Unit\Master Audio Bus\Del	
-	980603520	Rev			\Default Work Unit\Master Audio Bus\Rev	
+	378875104	del			\Default Work Unit\Master Audio Bus\del	
+	980603520	rev			\Default Work Unit\Master Audio Bus\rev	
 
 Effect plug-ins	ID	Name	Type				Notes
 	393602995	Wwise Stereo Delay (Custom)	Wwise Stereo Delay			

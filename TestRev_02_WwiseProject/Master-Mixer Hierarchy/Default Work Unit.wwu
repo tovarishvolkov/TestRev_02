@@ -10,15 +10,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX" ID="{45B27287-7651-4C97-BA8B-937D456B4B7F}">
+						<Bus Name="sfx" ID="{45B27287-7651-4C97-BA8B-937D456B4B7F}">
 							<ChildrenList>
-								<Bus Name="CHR" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}">
+								<Bus Name="chr" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}">
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+											<ObjectRef Name="rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 										</Reference>
 										<Reference Name="UserAuxSend1">
-											<ObjectRef Name="Del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+											<ObjectRef Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
@@ -26,7 +26,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
-						<AuxBus Name="Rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}">
+						<AuxBus Name="rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}">
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
@@ -80,14 +80,8 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>50.12019</XPos>
-																		<YPos>-1.45197</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log2</SegmentShape>
-																	</Point>
-																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>74.71264</YPos>
+																		<YPos>-1.21956</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -95,7 +89,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="ERLevel" Type="Real32">
+												<Property Name="ERLevel" Type="Real32" Value="0">
 													<RTPCList>
 														<RTPC Name="" ID="{A586684B-90C9-44E9-A558-89E37DD9AB67}" ShortID="403102566">
 															<ReferenceList>
@@ -152,7 +146,7 @@
 													</RTPCList>
 												</Property>
 												<Property Name="PreDelay" Type="Real32" Value="0"/>
-												<Property Name="ReverbLevel" Type="Real32">
+												<Property Name="ReverbLevel" Type="Real32" Value="0">
 													<RTPCList>
 														<RTPC Name="" ID="{928F8613-5AA3-4D5A-9F68-63566D31C339}" ShortID="409792703">
 															<ReferenceList>
@@ -180,6 +174,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
 												<Property Name="StereoWidth" Type="Real32">
 													<RTPCList>
 														<RTPC Name="" ID="{630C2880-92F5-44B6-A28F-6E9A15189BF1}" ShortID="393428798">
@@ -215,40 +210,12 @@
 							</ReferenceList>
 							<ObjectLists/>
 						</AuxBus>
-						<AuxBus Name="Del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}">
+						<AuxBus Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}">
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
 										<Effect Name="Wwise Stereo Delay (Custom)" ID="{8DCF0C13-79D9-49EE-A2B3-D60D3402E68F}" ShortID="393602995" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 											<PropertyList>
-												<Property Name="DryLevel" Type="Real32" Value="-3">
-													<RTPCList>
-														<RTPC Name="" ID="{E67C948A-17BF-4FC5-97FA-D04326A0EDED}" ShortID="243061945">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{8291B865-B4BA-4491-A973-8EB6A2A5A2D9}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-96</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
 												<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 												<Property Name="FilterFrequency" Type="Real32" Value="20"/>
 												<Property Name="FilterGain" Type="Real32" Value="-10"/>
@@ -268,12 +235,13 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-48</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>48</YPos>
+																		<YPos>-48</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -296,12 +264,13 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-48</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>48</YPos>
+																		<YPos>-37.37255</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -309,7 +278,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="WetLevel" Type="Real32" Value="3">
+												<Property Name="WetLevel" Type="Real32">
 													<RTPCList>
 														<RTPC Name="" ID="{2C9D4C41-749C-4701-8984-881C0FCEDC8E}" ShortID="52184824">
 															<ReferenceList>
@@ -324,12 +293,13 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-96</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-120</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>

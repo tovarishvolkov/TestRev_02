@@ -8,7 +8,7 @@
 						<Action Name="" ID="{A3C99E24-DA3C-4730-BB74-BD3B3FD8858F}" ShortID="941555591">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="fts" ID="{41105D5C-B301-421A-BF86-875D242994E6}" WorkUnitID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}"/>
+									<ObjectRef Name="chr_fts" ID="{41105D5C-B301-421A-BF86-875D242994E6}" WorkUnitID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

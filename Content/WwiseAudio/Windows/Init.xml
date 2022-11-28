@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/Content/WwiseAudio/Windows/</SoundBanksRoot>
+		<ProjectRoot>D:\Projects\TestRev_02\TestRev_02_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\TestRev_02\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/tovarish_volkov/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Library/UnrealProjects/TestRev_02/TestRev_02_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Projects\TestRev_02\TestRev_02_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="683265388">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3969122707">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="378875104" Name="Del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
-				<AuxBus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Rev" GUID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"/>
+				<AuxBus Id="378875104" Name="del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
+				<AuxBus Id="980603520" Name="rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev" GUID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
-				<GameParameter Id="20863261" Name="rev_decay_time" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_decay_time" GUID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
-				<GameParameter Id="366772581" Name="rev_out_er" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_out_er" GUID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
-				<GameParameter Id="422411778" Name="del_crossfeed_r" ObjectPath="\Game Parameters\Default Work Unit\Del\del_crossfeed_r" GUID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
-				<GameParameter Id="422411804" Name="del_crossfeed_l" ObjectPath="\Game Parameters\Default Work Unit\Del\del_crossfeed_l" GUID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
-				<GameParameter Id="1192436428" Name="del_out_wet" ObjectPath="\Game Parameters\Default Work Unit\Del\del_out_wet" GUID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
-				<GameParameter Id="1273220123" Name="del_out_dry" ObjectPath="\Game Parameters\Default Work Unit\Del\del_out_dry" GUID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
-				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
-				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
-				<GameParameter Id="2001362676" Name="rev_out_reverb" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_out_reverb" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
-				<GameParameter Id="2499481230" Name="rev_stereo_width" ObjectPath="\Game Parameters\Default Work Unit\Rev\rev_stereo_width" GUID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
+				<GameParameter Id="20863261" Name="rev_decay_time" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_decay_time" GUID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
+				<GameParameter Id="366772581" Name="rev_out_er" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_out_er" GUID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
+				<GameParameter Id="422411778" Name="del_crossfeed_r" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_r" GUID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
+				<GameParameter Id="422411804" Name="del_crossfeed_l" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_l" GUID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
+				<GameParameter Id="1192436428" Name="del_out_wet" ObjectPath="\Game Parameters\Default Work Unit\del\del_out_wet" GUID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
+				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+				<GameParameter Id="2001362676" Name="rev_out_reverb" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_out_reverb" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+				<GameParameter Id="2499481230" Name="rev_stereo_width" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_stereo_width" GUID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
