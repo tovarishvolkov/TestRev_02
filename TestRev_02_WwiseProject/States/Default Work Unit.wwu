@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{55491634-7105-4DD5-821A-D79933150DFE}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{55491634-7105-4DD5-821A-D79933150DFE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{55491634-7105-4DD5-821A-D79933150DFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="rev_room" ID="{B8013BCB-3076-433F-861E-6205A77BEC61}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{871770D4-216A-49B8-8DCF-042FD471434C}"/>
+						<State Name="rev_room_large" ID="{D3F80F89-5AC0-460F-A34D-361F524CF6B9}"/>
+						<State Name="rev_room_medium" ID="{50F939A6-C16A-4914-86D0-BAD5B7B64917}"/>
+						<State Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
+						<State Name="rev_room_none" ID="{76699920-8C1D-4902-B79F-6E656F714559}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

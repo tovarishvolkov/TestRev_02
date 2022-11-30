@@ -1,13 +1,27 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2994086662	rev_room			\Default Work Unit\rev_room	
+
+State	ID	Name	State Group			Notes
+	31812723	rev_room_none	rev_room			
+	748895195	None	rev_room			
+	2087000386	rev_room_small	rev_room			
+	3829940232	rev_room_medium	rev_room			
+	4235432358	rev_room_large	rev_room			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	604469591	rev_room_small	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev\Wwise RoomVerb (Custom)		
+	929193699	rev_room_medium	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev\Wwise RoomVerb (Custom)		
+	1003388938	rev_room_large	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev\Wwise RoomVerb (Custom)		
+	1056932630	rev_room_none	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev\Wwise RoomVerb (Custom)		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	20863261	rev_decay_time			\Default Work Unit\rev\rev_decay_time	
-	366772581	rev_out_er			\Default Work Unit\rev\rev_out_er	
 	422411778	del_crossfeed_r			\Default Work Unit\del\del_crossfeed_r	
 	422411804	del_crossfeed_l			\Default Work Unit\del\del_crossfeed_l	
 	1192436428	del_out_wet			\Default Work Unit\del\del_out_wet	
 	1308072702	rev_hf_damping			\Default Work Unit\rev\rev_hf_damping	
 	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
 	2001362676	rev_out_reverb			\Default Work Unit\rev\rev_out_reverb	
-	2499481230	rev_stereo_width			\Default Work Unit\rev\rev_stereo_width	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	sfx			\Default Work Unit\Master Audio Bus\sfx	

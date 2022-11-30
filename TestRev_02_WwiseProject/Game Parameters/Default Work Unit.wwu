@@ -9,6 +9,18 @@
 						<GameParameter Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
 						<GameParameter Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
 						<GameParameter Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+						<GameParameter Name="del_filter_freq" ID="{48BC5F81-1455-4349-999D-8755ADDBF53A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="20"/>
+								<Property Name="Max" Type="Real64" Value="20000"/>
+								<Property Name="Min" Type="Real64" Value="20"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="del_filter_gain" ID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="rev" ID="{2A133A67-A280-4B0F-A085-0931A01CBEF7}" ShortID="154340722">
@@ -24,11 +36,20 @@
 						</GameParameter>
 						<GameParameter Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}">
 							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.6"/>
 								<Property Name="InitialValue" Type="Real64" Value="2.25"/>
 								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
 							</PropertyList>
 						</GameParameter>
-						<GameParameter Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+						<GameParameter Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.6"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.3"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
 						<GameParameter Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
 						<GameParameter Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
 						<GameParameter Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>

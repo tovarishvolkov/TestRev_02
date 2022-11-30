@@ -34,25 +34,45 @@
 											<PropertyList>
 												<Property Name="DecayTime" Type="Real32">
 													<RTPCList>
-														<RTPC Name="" ID="{DCD7C670-0E57-4C70-A83D-9D1F81EFFDF7}" ShortID="277001908">
+														<RTPC Name="" ID="{B598C4B4-C8AF-40DD-9CD0-87C5D0C70620}" ShortID="419310567">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{4CFCA5B3-6274-48C2-9D89-2F7E3ECA386E}">
+															<Curve Name="" ID="{23103AB6-F96E-4D5A-8EEA-3640EF08C8A5}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0.2</YPos>
+																		<YPos>0.7</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
+																		<XPos>3</XPos>
+																		<YPos>0.7</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>1.1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.5</XPos>
+																		<YPos>1.1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7.5</XPos>
+																		<YPos>1.8</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
 																		<XPos>10</XPos>
-																		<YPos>2.97854</YPos>
+																		<YPos>1.8</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -60,28 +80,48 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="Density" Type="Real32" Value="75"/>
 												<Property Name="Diffusion" Type="Real32">
 													<RTPCList>
-														<RTPC Name="" ID="{0D05588B-E770-411B-B912-38ADC9EDC0A2}" ShortID="433731448">
+														<RTPC Name="" ID="{DBB34DB6-0AFE-48CE-B9B9-85DEF4DBF664}" ShortID="461780983">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{3B4FE53F-701D-4081-8232-902BFE99C2F4}">
+															<Curve Name="" ID="{1A6A803A-9791-4D4B-94DE-21914932A3EF}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-48.65901</YPos>
+																		<YPos>26</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>25</XPos>
+																		<YPos>26</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>35</XPos>
+																		<YPos>46</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>65</XPos>
+																		<YPos>46</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>60</YPos>
+																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>-1.21956</YPos>
+																		<YPos>60</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -89,55 +129,51 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="ERLevel" Type="Real32" Value="0">
-													<RTPCList>
-														<RTPC Name="" ID="{A586684B-90C9-44E9-A558-89E37DD9AB67}" ShortID="403102566">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{D79210BF-8726-4FA7-8C2E-79E9032AD425}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-96.3000030517578</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
+												<Property Name="ERLevel" Type="Real32" Value="0"/>
+												<Property Name="EnableToneControls" Type="bool" Value="True"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="125"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="4000"/>
 												<Property Name="HFDamping" Type="Real32">
 													<RTPCList>
-														<RTPC Name="" ID="{79C6CB86-A048-49C4-912E-64DB7C3FDE49}" ShortID="573679117">
+														<RTPC Name="" ID="{B81F07AC-2D3C-413B-9A88-19CAC4D8DE49}" ShortID="828109111">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{8E2A9059-1BD9-474F-B997-5F67AF67BD9C}">
+															<Curve Name="" ID="{E913A2EB-CA9D-459A-BA89-A377E8BDF9A7}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>2.25</YPos>
+																		<YPos>2.7</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
+																		<XPos>2.5</XPos>
+																		<YPos>2.7</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3.5</XPos>
+																		<YPos>1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.5</XPos>
+																		<YPos>1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7.53357753357753</XPos>
+																		<YPos>0.5</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
 																		<XPos>10</XPos>
-																		<YPos>4.97701</YPos>
+																		<YPos>0.5</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -145,57 +181,47 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="PreDelay" Type="Real32" Value="0"/>
-												<Property Name="ReverbLevel" Type="Real32" Value="0">
+												<Property Name="PreDelay" Type="Real32" Value="0">
 													<RTPCList>
-														<RTPC Name="" ID="{928F8613-5AA3-4D5A-9F68-63566D31C339}" ShortID="409792703">
+														<RTPC Name="" ID="{E397A125-A020-48F6-BCA5-9A058A7FF2C0}" ShortID="403702674">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{0264784B-B323-4268-8DC2-25324F0C770B}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-96.3000030517578</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="RoomShape" Type="Real32" Value="55"/>
-												<Property Name="StereoWidth" Type="Real32">
-													<RTPCList>
-														<RTPC Name="" ID="{630C2880-92F5-44B6-A28F-6E9A15189BF1}" ShortID="393428798">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{6B5F8B80-8236-46BF-B4CB-0DC9E070E15A}">
+															<Curve Name="" ID="{6652CBC4-F1C0-4EC9-8CB6-A85DC3B560E2}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-180</YPos>
+																		<YPos>12</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
+																		<XPos>30</XPos>
+																		<YPos>12</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>40</XPos>
+																		<YPos>25</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>65</XPos>
+																		<YPos>25</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>35</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>180</YPos>
+																		<YPos>35</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -203,7 +229,61 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
 											</PropertyList>
+											<StateInfo>
+												<StatePropertyList>
+													<Property Name="ERLevel"/>
+													<Property Name="ReverbLevel"/>
+													<Property Name="StereoWidth"/>
+												</StatePropertyList>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="rev_room" ID="{B8013BCB-3076-433F-861E-6205A77BEC61}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
+														<CustomState Name="" ID="{B9D3E300-E51A-4822-9938-FCFA6EF46B5F}" ShortID="604469591">
+															<PropertyList>
+																<Property Name="ERLevel" Type="Real32" Value="-10"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-30"/>
+																<Property Name="StereoWidth" Type="Real32" Value="90"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="rev_room_large" ID="{D3F80F89-5AC0-460F-A34D-361F524CF6B9}"/>
+														<CustomState Name="" ID="{EEAB0D6B-B4F3-4D60-91C0-6959FD407513}" ShortID="1003388938">
+															<PropertyList>
+																<Property Name="ERLevel" Type="Real32" Value="-30"/>
+																<Property Name="StereoWidth" Type="Real32" Value="140"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="rev_room_none" ID="{76699920-8C1D-4902-B79F-6E656F714559}"/>
+														<CustomState Name="" ID="{3066C697-D295-4A63-8D36-57E26B164550}" ShortID="1056932630">
+															<PropertyList>
+																<Property Name="ERLevel" Type="Real32" Value="-96"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																<Property Name="StereoWidth" Type="Real32" Value="-180"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="rev_room_medium" ID="{50F939A6-C16A-4914-86D0-BAD5B7B64917}"/>
+														<CustomState Name="" ID="{B996AB21-D1A1-45EA-B8A1-8279B1822CEE}" ShortID="929193699">
+															<PropertyList>
+																<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+																<Property Name="StereoWidth" Type="Real32" Value="115"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</Effect>
 									</Custom>
 								</Reference>
@@ -217,8 +297,63 @@
 										<Effect Name="Wwise Stereo Delay (Custom)" ID="{8DCF0C13-79D9-49EE-A2B3-D60D3402E68F}" ShortID="393602995" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 											<PropertyList>
 												<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
-												<Property Name="FilterFrequency" Type="Real32" Value="20"/>
-												<Property Name="FilterGain" Type="Real32" Value="-10"/>
+												<Property Name="FilterFrequency" Type="Real32" Value="20">
+													<RTPCList>
+														<RTPC Name="" ID="{31BB17CF-EDF2-4D09-A125-C04AB7AB5134}" ShortID="322924374">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="del_filter_freq" ID="{48BC5F81-1455-4349-999D-8755ADDBF53A}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5383E95C-0C68-40E5-B336-82A885A878D7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="5"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>20</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>20000</XPos>
+																		<YPos>20000</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="FilterGain" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{8F513582-EAC4-4A7B-A425-005E3F691F36}" ShortID="751918783">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="del_filter_gain" ID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E222619A-E317-4919-B84B-6245891CE948}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.05566</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-48</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="FilterType" Type="int32" Value="3"/>
 												<Property Name="FrontRearBalance" Type="Real32" Value="0"/>
 												<Property Name="LeftCrossfeed" Type="Real32" Value="0">
 													<RTPCList>
@@ -235,7 +370,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-2.5</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -249,6 +384,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="LeftDelayTime" Type="Real32" Value="0.03"/>
 												<Property Name="RightCrossfeed" Type="Real32" Value="0">
 													<RTPCList>
 														<RTPC Name="" ID="{96335D52-327D-4A84-9B73-DCD6D7913FCF}" ShortID="454057622">
@@ -264,7 +400,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-2.5</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -278,6 +414,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="RightDelayTime" Type="Real32" Value="0.03"/>
 												<Property Name="WetLevel" Type="Real32">
 													<RTPCList>
 														<RTPC Name="" ID="{2C9D4C41-749C-4701-8984-881C0FCEDC8E}" ShortID="52184824">
@@ -293,7 +430,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-6</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
