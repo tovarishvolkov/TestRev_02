@@ -22,6 +22,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1308072702	rev_hf_damping			\Default Work Unit\rev\rev_hf_damping	
 	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
 	2001362676	rev_out_reverb			\Default Work Unit\rev\rev_out_reverb	
+	3684179601	del_filter_gain			\Default Work Unit\del\del_filter_gain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	sfx			\Default Work Unit\Master Audio Bus\sfx	

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="4135745322">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3837876507">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -27,9 +27,10 @@
 				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
 				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
 				<GameParameter Id="2001362676" Name="rev_out_reverb" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_out_reverb" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+				<GameParameter Id="3684179601" Name="del_filter_gain" ObjectPath="\Game Parameters\Default Work Unit\del\del_filter_gain" GUID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="1271294023">
+		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="2926385566">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>

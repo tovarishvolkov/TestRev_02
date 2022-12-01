@@ -131,7 +131,7 @@
 												</Property>
 												<Property Name="ERLevel" Type="Real32" Value="0"/>
 												<Property Name="EnableToneControls" Type="bool" Value="True"/>
-												<Property Name="Filter1Freq" Type="Real32" Value="125"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="250"/>
 												<Property Name="Filter3Freq" Type="Real32" Value="4000"/>
 												<Property Name="HFDamping" Type="Real32">
 													<RTPCList>
@@ -249,7 +249,7 @@
 														<CustomState Name="" ID="{B9D3E300-E51A-4822-9938-FCFA6EF46B5F}" ShortID="604469591">
 															<PropertyList>
 																<Property Name="ERLevel" Type="Real32" Value="-10"/>
-																<Property Name="ReverbLevel" Type="Real32" Value="-30"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-35"/>
 																<Property Name="StereoWidth" Type="Real32" Value="90"/>
 															</PropertyList>
 														</CustomState>
@@ -259,6 +259,7 @@
 														<CustomState Name="" ID="{EEAB0D6B-B4F3-4D60-91C0-6959FD407513}" ShortID="1003388938">
 															<PropertyList>
 																<Property Name="ERLevel" Type="Real32" Value="-30"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
 																<Property Name="StereoWidth" Type="Real32" Value="140"/>
 															</PropertyList>
 														</CustomState>
@@ -296,35 +297,9 @@
 									<Custom>
 										<Effect Name="Wwise Stereo Delay (Custom)" ID="{8DCF0C13-79D9-49EE-A2B3-D60D3402E68F}" ShortID="393602995" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-96"/>
 												<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
-												<Property Name="FilterFrequency" Type="Real32" Value="20">
-													<RTPCList>
-														<RTPC Name="" ID="{31BB17CF-EDF2-4D09-A125-C04AB7AB5134}" ShortID="322924374">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="del_filter_freq" ID="{48BC5F81-1455-4349-999D-8755ADDBF53A}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{5383E95C-0C68-40E5-B336-82A885A878D7}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="5"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>20</XPos>
-																		<YPos>20</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>20000</XPos>
-																		<YPos>20000</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
+												<Property Name="FilterFrequency" Type="Real32" Value="4000"/>
 												<Property Name="FilterGain" Type="Real32">
 													<RTPCList>
 														<RTPC Name="" ID="{8F513582-EAC4-4A7B-A425-005E3F691F36}" ShortID="751918783">
@@ -342,9 +317,10 @@
 																		<XPos>0</XPos>
 																		<YPos>-0.05566</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>24</XPos>
 																		<YPos>-48</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -430,9 +406,8 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-6</YPos>
+																		<YPos>-12</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>

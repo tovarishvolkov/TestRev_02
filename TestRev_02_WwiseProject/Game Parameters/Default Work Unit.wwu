@@ -19,6 +19,7 @@
 						<GameParameter Name="del_filter_gain" ID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}">
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="24"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
