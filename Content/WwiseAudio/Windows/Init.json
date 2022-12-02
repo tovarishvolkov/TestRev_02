@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3837876507",
+    "Hash": "3480466251",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -42,6 +42,12 @@
       "GUID": "{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"
      },
      {
+      "Id": "22760086",
+      "Name": "rev_pre_delay",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_pre_delay",
+      "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
+     },
+     {
       "Id": "422411778",
       "Name": "del_crossfeed_r",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_crossfeed_r",
@@ -52,6 +58,12 @@
       "Name": "del_crossfeed_l",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_crossfeed_l",
       "GUID": "{491E0969-4AA3-496E-9310-584677A0725F}"
+     },
+     {
+      "Id": "928091336",
+      "Name": "rev_filter_3band_gain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_filter_3band_gain",
+      "GUID": "{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"
      },
      {
       "Id": "1192436428",
@@ -70,12 +82,6 @@
       "Name": "rev_diffusion",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_diffusion",
       "GUID": "{F238AA67-F22B-4648-9042-B8648D5FF09D}"
-     },
-     {
-      "Id": "2001362676",
-      "Name": "rev_out_reverb",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_out_reverb",
-      "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
      },
      {
       "Id": "3684179601",

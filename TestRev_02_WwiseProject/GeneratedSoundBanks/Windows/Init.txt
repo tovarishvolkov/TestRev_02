@@ -16,12 +16,13 @@ Custom State	ID	Name	State Group	Owner		Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	20863261	rev_decay_time			\Default Work Unit\rev\rev_decay_time	
+	22760086	rev_pre_delay			\Default Work Unit\rev\rev_pre_delay	
 	422411778	del_crossfeed_r			\Default Work Unit\del\del_crossfeed_r	
 	422411804	del_crossfeed_l			\Default Work Unit\del\del_crossfeed_l	
+	928091336	rev_filter_3band_gain			\Default Work Unit\rev\rev_filter_3band_gain	
 	1192436428	del_out_wet			\Default Work Unit\del\del_out_wet	
 	1308072702	rev_hf_damping			\Default Work Unit\rev\rev_hf_damping	
 	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
-	2001362676	rev_out_reverb			\Default Work Unit\rev\rev_out_reverb	
 	3684179601	del_filter_gain			\Default Work Unit\del\del_filter_gain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

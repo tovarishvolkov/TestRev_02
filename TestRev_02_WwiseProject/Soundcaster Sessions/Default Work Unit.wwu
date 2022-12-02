@@ -40,7 +40,7 @@
 							<Value>2.04724409448819</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+							<GameParameterRef Name="rev_pre_delay" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
 							<Value>30.7086614173228</Value>
 						</RTPCValue>
 						<RTPCValue>

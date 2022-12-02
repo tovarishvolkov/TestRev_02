@@ -116,7 +116,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="TargetObject">
-											<ObjectRef Name="rev_out_reverb" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+											<ObjectRef Name="rev_pre_delay" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 										</Reference>
 									</ReferenceList>
 								</ControlSurfaceBinding>
