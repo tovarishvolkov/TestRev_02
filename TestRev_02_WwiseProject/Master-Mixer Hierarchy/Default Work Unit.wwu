@@ -145,7 +145,7 @@
 														<RTPC Name="" ID="{CA8411F8-CD1A-4F18-9C1A-84797DDD76AF}" ShortID="619690057">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="rev_filter_3band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+																	<ObjectRef Name="rev_filter_band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{1B2BDE6F-8D86-421A-97E8-88882C283FB0}">
@@ -155,13 +155,8 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-48.28069</YPos>
+																		<YPos>-40.40377</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>0.10078</XPos>
-																		<YPos>-48.63413</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -178,7 +173,7 @@
 														<RTPC Name="" ID="{9D9BCC96-DBFB-4629-804A-CEF15CB37EC9}" ShortID="233181069">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="rev_filter_3band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+																	<ObjectRef Name="rev_filter_band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{5A340D62-C269-4B8F-9F25-EA991509F7AD}">
@@ -188,13 +183,8 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-26</YPos>
+																		<YPos>-10.24615</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>0.1</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -212,7 +202,7 @@
 														<RTPC Name="" ID="{26060462-4E61-46AD-8170-940E2568CAB8}" ShortID="976684392">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="rev_filter_3band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
+																	<ObjectRef Name="rev_filter_band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}" WorkUnitID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{6521FFBE-2628-4147-8D1C-EAEDA3A1F36E}">
@@ -224,11 +214,6 @@
 																		<XPos>0</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>0.10078</XPos>
-																		<YPos>-0.34225</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -355,7 +340,6 @@
 														<StateRef Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
 														<CustomState Name="" ID="{B9D3E300-E51A-4822-9938-FCFA6EF46B5F}" ShortID="604469591">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
 																<Property Name="StereoWidth" Type="Real32" Value="90"/>
 															</PropertyList>
 														</CustomState>
@@ -364,7 +348,7 @@
 														<StateRef Name="rev_room_large" ID="{D3F80F89-5AC0-460F-A34D-361F524CF6B9}"/>
 														<CustomState Name="" ID="{EEAB0D6B-B4F3-4D60-91C0-6959FD407513}" ShortID="1003388938">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
 																<Property Name="StereoWidth" Type="Real32" Value="140"/>
 															</PropertyList>
 														</CustomState>
@@ -382,6 +366,7 @@
 														<StateRef Name="rev_room_medium" ID="{50F939A6-C16A-4914-86D0-BAD5B7B64917}"/>
 														<CustomState Name="" ID="{B996AB21-D1A1-45EA-B8A1-8279B1822CEE}" ShortID="929193699">
 															<PropertyList>
+																<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
 																<Property Name="StereoWidth" Type="Real32" Value="115"/>
 															</PropertyList>
 														</CustomState>
@@ -420,7 +405,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-0.05566</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Log3</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>24</XPos>
@@ -509,8 +494,9 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-12</YPos>
+																		<YPos>-5.99046</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>

@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3480466251",
+    "Hash": "1524256883",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -60,12 +60,6 @@
       "GUID": "{491E0969-4AA3-496E-9310-584677A0725F}"
      },
      {
-      "Id": "928091336",
-      "Name": "rev_filter_3band_gain",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_filter_3band_gain",
-      "GUID": "{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"
-     },
-     {
       "Id": "1192436428",
       "Name": "del_out_wet",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_out_wet",
@@ -82,6 +76,12 @@
       "Name": "rev_diffusion",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_diffusion",
       "GUID": "{F238AA67-F22B-4648-9042-B8648D5FF09D}"
+     },
+     {
+      "Id": "1684592609",
+      "Name": "rev_filter_band_gain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_filter_band_gain",
+      "GUID": "{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"
      },
      {
       "Id": "3684179601",

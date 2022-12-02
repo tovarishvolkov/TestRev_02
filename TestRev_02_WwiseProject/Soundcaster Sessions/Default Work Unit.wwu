@@ -16,20 +16,12 @@
 							<Value>0.78740157480315</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="rev_out_er" ID="{B237E68B-A8E6-426E-A65F-BE2D00D20787}"/>
-							<Value>81.1023622047244</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
 							<Value>5.03937007874016</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="rev_stereo_width" ID="{D26AA081-59E9-489B-9E76-B92F66948141}"/>
-							<Value>18.1102362204724</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
