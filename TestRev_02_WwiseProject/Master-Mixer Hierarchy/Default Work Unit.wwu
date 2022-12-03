@@ -87,8 +87,7 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="Density" Type="Real32" Value="75"/>
-												<Property Name="Diffusion" Type="Real32">
+												<Property Name="Diffusion" Type="Real32" Value="0">
 													<RTPCList>
 														<RTPC Name="" ID="{DBB34DB6-0AFE-48CE-B9B9-85DEF4DBF664}" ShortID="461780983">
 															<ReferenceList>
@@ -103,32 +102,32 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>26</YPos>
+																		<YPos>-0.87225</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>25</XPos>
-																		<YPos>26</YPos>
+																		<YPos>-0.87225</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>35</XPos>
-																		<YPos>46</YPos>
+																		<YPos>19.12775</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>65</XPos>
-																		<YPos>46</YPos>
+																		<YPos>19.12775</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>75</XPos>
-																		<YPos>60</YPos>
+																		<YPos>33.12775</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>60</YPos>
+																		<YPos>33.12775</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -137,6 +136,7 @@
 													</RTPCList>
 												</Property>
 												<Property Name="ERLevel" Type="Real32" Value="-23"/>
+												<Property Name="ERPattern" Type="int32" Value="22"/>
 												<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
 												<Property Name="EnableToneControls" Type="bool" Value="True"/>
 												<Property Name="Filter1Freq" Type="Real32" Value="250"/>
@@ -155,12 +155,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-40.40377</YPos>
+																		<YPos>-10</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>-30</YPos>
+																		<YPos>-5</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -183,12 +183,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-10.24615</YPos>
+																		<YPos>-4</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>-23</YPos>
+																		<YPos>-10</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -322,8 +322,9 @@
 													</RTPCList>
 												</Property>
 												<Property Name="Quality" Type="int32" Value="12"/>
-												<Property Name="ReverbLevel" Type="Real32" Value="0"/>
-												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+												<Property Name="RoomShape" Type="Real32" Value="80"/>
+												<Property Name="StereoWidth" Type="Real32" Value="0"/>
 											</PropertyList>
 											<StateInfo>
 												<StatePropertyList>
@@ -340,6 +341,7 @@
 														<StateRef Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
 														<CustomState Name="" ID="{B9D3E300-E51A-4822-9938-FCFA6EF46B5F}" ShortID="604469591">
 															<PropertyList>
+																<Property Name="ReverbLevel" Type="Real32" Value="-8"/>
 																<Property Name="StereoWidth" Type="Real32" Value="90"/>
 															</PropertyList>
 														</CustomState>
@@ -348,7 +350,7 @@
 														<StateRef Name="rev_room_large" ID="{D3F80F89-5AC0-460F-A34D-361F524CF6B9}"/>
 														<CustomState Name="" ID="{EEAB0D6B-B4F3-4D60-91C0-6959FD407513}" ShortID="1003388938">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="0"/>
 																<Property Name="StereoWidth" Type="Real32" Value="140"/>
 															</PropertyList>
 														</CustomState>
@@ -366,7 +368,7 @@
 														<StateRef Name="rev_room_medium" ID="{50F939A6-C16A-4914-86D0-BAD5B7B64917}"/>
 														<CustomState Name="" ID="{B996AB21-D1A1-45EA-B8A1-8279B1822CEE}" ShortID="929193699">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-5"/>
 																<Property Name="StereoWidth" Type="Real32" Value="115"/>
 															</PropertyList>
 														</CustomState>
@@ -375,6 +377,9 @@
 											</StateInfo>
 										</Effect>
 									</Custom>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 								</Reference>
 							</ReferenceList>
 							<ObjectLists/>
