@@ -13,13 +13,6 @@
 						<Bus Name="sfx" ID="{45B27287-7651-4C97-BA8B-937D456B4B7F}">
 							<ChildrenList>
 								<Bus Name="chr" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}">
-									<PropertyList>
-										<Property Name="UserAuxSendVolume1" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
 											<ObjectRef Name="rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
@@ -322,7 +315,6 @@
 													</RTPCList>
 												</Property>
 												<Property Name="Quality" Type="int32" Value="12"/>
-												<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
 												<Property Name="RoomShape" Type="Real32" Value="80"/>
 												<Property Name="StereoWidth" Type="Real32" Value="0"/>
 											</PropertyList>
@@ -341,7 +333,7 @@
 														<StateRef Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
 														<CustomState Name="" ID="{B9D3E300-E51A-4822-9938-FCFA6EF46B5F}" ShortID="604469591">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-8"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-5"/>
 																<Property Name="StereoWidth" Type="Real32" Value="90"/>
 															</PropertyList>
 														</CustomState>
@@ -368,7 +360,7 @@
 														<StateRef Name="rev_room_medium" ID="{50F939A6-C16A-4914-86D0-BAD5B7B64917}"/>
 														<CustomState Name="" ID="{B996AB21-D1A1-45EA-B8A1-8279B1822CEE}" ShortID="929193699">
 															<PropertyList>
-																<Property Name="ReverbLevel" Type="Real32" Value="-5"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-2"/>
 																<Property Name="StereoWidth" Type="Real32" Value="115"/>
 															</PropertyList>
 														</CustomState>
