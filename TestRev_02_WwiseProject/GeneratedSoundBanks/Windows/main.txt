@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1852458854	chr_fts			\Default Work Unit\chr_fts	
+	3536767109	chr_vo_hello			\Default Work Unit\chr_vo_hello	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3147774830	fts_surface			\Default Work Unit\fts_surface	
@@ -13,17 +14,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	56490938	UEWWISEFootsteps_Metal_6	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Metal\UEWWISEFootsteps_Metal_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_metal\UEWWISEFootsteps_Metal_6		28088
 	63066702	UEWWISEFootsteps_Wood_5	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Wood\UEWWISEFootsteps_Wood_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_wood\UEWWISEFootsteps_Wood_5		34292
 	114658746	foley_02	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_02		49426
-	164713574	foley_01	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_01_47F274ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_01		46904
+	164713574	foley_01	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_01_B40CE1C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_01		46904
 	183023140	UEFPS_Footsteps_Stone_4	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_stone\UEFPS_Footsteps_Stone_4		62516
 	199127544	UEFPS_Footsteps_Stone_6	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_stone\UEFPS_Footsteps_Stone_6		62516
 	294375971	UEFPS_Footsteps_Stone_5	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_stone\UEFPS_Footsteps_Stone_5		62516
 	295546541	UEWWISEFootsteps_Wood_2	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Wood\UEWWISEFootsteps_Wood_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_wood\UEWWISEFootsteps_Wood_2		34292
+	297573421	hello	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\vo\hello_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\hello		122366
 	343321288	foley_06	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_06		45102
 	384239733	UEWWISEFootsteps_Metal_2	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Metal\UEWWISEFootsteps_Metal_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_metal\UEWWISEFootsteps_Metal_2		28088
 	439380728	UEFPS_Footsteps_Stone_1	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_stone\UEFPS_Footsteps_Stone_1		62516
 	503058383	foley_05	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_05		39698
 	549930857	UEWWISEFootsteps_Wood_1	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Wood\UEWWISEFootsteps_Wood_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_wood\UEWWISEFootsteps_Wood_1		34292
-	592964946	foley_04	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_04_DF617907.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_04		42754
+	592964946	foley_04	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\foley\foley\foley_04_2166DD06.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_foley\foley_04		42754
 	665744122	UEWWISEFootsteps_Metal_3	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Metal\UEWWISEFootsteps_Metal_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_metal\UEWWISEFootsteps_Metal_3		28088
 	747365922	UEFPS_Footsteps_Stone_3	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_stone\UEFPS_Footsteps_Stone_3		62516
 	760435278	UEWWISEFootsteps_Metal_1	D:\Projects\TestRev_02\TestRev_02_WwiseProject\.cache\Windows\SFX\Metal\UEWWISEFootsteps_Metal_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\chr\chr_fts\chr_fts_metal\UEWWISEFootsteps_Metal_1		28088

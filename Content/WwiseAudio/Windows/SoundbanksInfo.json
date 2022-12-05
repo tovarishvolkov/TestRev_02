@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "342745307",
+    "Hash": "2918028677",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -98,7 +98,7 @@
     "Id": "3161908922",
     "GUID": "{3AEE5BAF-595D-4436-ABCB-E540FC020636}",
     "Language": "SFX",
-    "Hash": "661118951",
+    "Hash": "3935740324",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
@@ -345,6 +345,23 @@
           "Id": "1026172683"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "3536767109",
+      "Name": "chr_vo_hello",
+      "ObjectPath": "\\Events\\Default Work Unit\\chr_vo_hello",
+      "GUID": "{1F238C89-C743-46EB-A3D6-425E3F78E22A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.273979",
+      "DurationMax": "1.273979",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "297573421",
+        "Language": "SFX",
+        "ShortName": "vo\\hello.wav",
+        "Path": "SFX\\vo\\hello_10C4C929.wem"
        }
       ]
      }

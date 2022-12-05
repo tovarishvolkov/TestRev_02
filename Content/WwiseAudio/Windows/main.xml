@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\TestRev_02\TestRev_02_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="661118951">
+		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="3935740324">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
@@ -155,6 +155,14 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3536767109" Name="chr_vo_hello" ObjectPath="\Events\Default Work Unit\chr_vo_hello" GUID="{1F238C89-C743-46EB-A3D6-425E3F78E22A}" DurationType="OneShot" DurationMin="1.273979" DurationMax="1.273979">
+					<IncludedMemoryFiles>
+						<File Id="297573421" Language="SFX">
+							<ShortName>vo\hello.wav</ShortName>
+							<Path>SFX\vo\hello_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>

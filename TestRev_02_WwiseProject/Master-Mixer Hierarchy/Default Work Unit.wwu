@@ -27,6 +27,13 @@
 							<ObjectLists/>
 						</Bus>
 						<AuxBus Name="rev" ID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
@@ -148,12 +155,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>-2</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>-5</YPos>
+																		<YPos>-8</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -370,9 +377,6 @@
 										</Effect>
 									</Custom>
 								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-								</Reference>
 							</ReferenceList>
 							<ObjectLists/>
 						</AuxBus>
@@ -491,7 +495,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-8</YPos>
+																		<YPos>-12</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>

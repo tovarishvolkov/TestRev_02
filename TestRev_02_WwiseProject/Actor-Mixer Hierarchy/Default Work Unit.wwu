@@ -598,7 +598,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-28</Value>
+										<Value>-33</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -761,6 +761,36 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="hello" ID="{15045BA7-2695-465A-B835-5FF269ECC93A}" ShortID="668042849">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hello" ID="{CB1E4B6C-F2D8-4D6F-B5DA-FCC856E12808}">
+									<Language>SFX</Language>
+									<AudioFile>vo\hello.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297573421"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="hello" ID="{CB1E4B6C-F2D8-4D6F-B5DA-FCC856E12808}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

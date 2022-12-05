@@ -21,6 +21,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="chr_vo_hello" ID="{1F238C89-C743-46EB-A3D6-425E3F78E22A}">
+					<ChildrenList>
+						<Action Name="" ID="{9DC3A324-EA98-4640-9868-FCE7541F91DE}" ShortID="425895879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hello" ID="{15045BA7-2695-465A-B835-5FF269ECC93A}" WorkUnitID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
