@@ -3,8 +3,15 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3136BEED-7446-4028-A4FD-0A4380CE5584}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="fts" ID="{22735D46-C08C-448D-B74A-A029EF19D4D4}">
+				<Event Name="chr_fts" ID="{22735D46-C08C-448D-B74A-A029EF19D4D4}">
 					<ChildrenList>
+						<Action Name="" ID="{574950A7-9A79-4B6E-815D-EB0F9165933C}" ShortID="343515121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chr_foley" ID="{776C9344-466D-41D1-9AA7-EFB0C6C1E056}" WorkUnitID="{5236BC56-9AEF-4CE3-9F45-DB1AAEE3677C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A3C99E24-DA3C-4730-BB74-BD3B3FD8858F}" ShortID="941555591">
 							<ReferenceList>
 								<Reference Name="Target">

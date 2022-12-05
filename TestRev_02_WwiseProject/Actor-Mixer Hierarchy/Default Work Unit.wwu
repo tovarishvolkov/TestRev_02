@@ -29,7 +29,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -583,6 +583,184 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="chr_foley" ID="{776C9344-466D-41D1-9AA7-EFB0C6C1E056}" ShortID="135187424">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D279E4E6-34FB-4638-83B6-27937F7D3158}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-28</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="foley_01" ID="{5573C8D4-AE9F-4C95-8716-7C7B98C4F391}" ShortID="592525121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_01" ID="{4BA13038-E4C6-416D-9699-5FFF91CA6A40}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0228500918273646"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164713574"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_01" ID="{4BA13038-E4C6-416D-9699-5FFF91CA6A40}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foley_02" ID="{0EE92F9A-5BD6-499B-86FD-E47B8BD87E7E}" ShortID="216853752">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_02" ID="{DC130130-4AD0-4B45-85E7-0A69D8BA6745}">
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114658746"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_02" ID="{DC130130-4AD0-4B45-85E7-0A69D8BA6745}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foley_03" ID="{17EB26AC-2B4D-4D67-B3EB-A40060134050}" ShortID="169998105">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_03" ID="{24A8A2C0-C0AA-4195-9721-CFFF7F270CEF}">
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932650132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_03" ID="{24A8A2C0-C0AA-4195-9721-CFFF7F270CEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foley_04" ID="{46589CA8-92E0-4691-8C77-BA2181FD8492}" ShortID="1020928204">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_04" ID="{32C54C42-E7F8-4CD9-9799-33706B1C86CF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0912386363636364"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.444685606060606"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592964946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_04" ID="{32C54C42-E7F8-4CD9-9799-33706B1C86CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foley_05" ID="{2F08D7DC-13EA-4EAC-B57A-14F949866CD0}" ShortID="1070582555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_05" ID="{DC8F36C3-7DAA-47D7-A34C-84F38C1CF757}">
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="503058383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_05" ID="{DC8F36C3-7DAA-47D7-A34C-84F38C1CF757}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foley_06" ID="{3692462F-A2E3-450D-A5DD-FABC73E51543}" ShortID="318471550">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C484900-3107-47BA-B20A-4F22E5CBFD94}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="foley_06" ID="{530EF6ED-3170-470D-9941-AEC9B190E993}">
+											<Language>SFX</Language>
+											<AudioFile>foley\foley\foley_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343321288"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="foley_06" ID="{530EF6ED-3170-470D-9941-AEC9B190E993}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

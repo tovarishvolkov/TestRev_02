@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3431135804">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="342745307">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -31,12 +31,12 @@
 				<GameParameter Id="3684179601" Name="del_filter_gain" ObjectPath="\Game Parameters\Default Work Unit\del\del_filter_gain" GUID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="2857961047">
+		<SoundBank Id="3161908922" GUID="{3AEE5BAF-595D-4436-ABCB-E540FC020636}" Language="SFX" Hash="661118951">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="999249646" Name="fts" ObjectPath="\Events\Default Work Unit\fts" GUID="{22735D46-C08C-448D-B74A-A029EF19D4D4}" DurationType="OneShot" DurationMin="0.158866" DurationMax="0.500683">
+				<Event Id="1852458854" Name="chr_fts" ObjectPath="\Events\Default Work Unit\chr_fts" GUID="{22735D46-C08C-448D-B74A-A029EF19D4D4}" DurationType="OneShot" DurationMin="0.412854" DurationMax="0.514188">
 					<IncludedMemoryFiles>
 						<File Id="56490938" Language="SFX">
 							<ShortName>Metal\UEWWISEFootsteps_Metal_6.wav</ShortName>
@@ -45,6 +45,14 @@
 						<File Id="63066702" Language="SFX">
 							<ShortName>Wood\UEWWISEFootsteps_Wood_5.wav</ShortName>
 							<Path>SFX\Wood\UEWWISEFootsteps_Wood_5_10C4C929.wem</Path>
+						</File>
+						<File Id="114658746" Language="SFX">
+							<ShortName>foley\foley\foley_02.wav</ShortName>
+							<Path>SFX\foley\foley\foley_02_10C4C929.wem</Path>
+						</File>
+						<File Id="164713574" Language="SFX">
+							<ShortName>foley\foley\foley_01.wav</ShortName>
+							<Path>SFX\foley\foley\foley_01_B40CE1C1.wem</Path>
 						</File>
 						<File Id="183023140" Language="SFX">
 							<ShortName>Stone_Steps\UEFPS_Footsteps_Stone_4.wav</ShortName>
@@ -62,6 +70,10 @@
 							<ShortName>Wood\UEWWISEFootsteps_Wood_2.wav</ShortName>
 							<Path>SFX\Wood\UEWWISEFootsteps_Wood_2_10C4C929.wem</Path>
 						</File>
+						<File Id="343321288" Language="SFX">
+							<ShortName>foley\foley\foley_06.wav</ShortName>
+							<Path>SFX\foley\foley\foley_06_10C4C929.wem</Path>
+						</File>
 						<File Id="384239733" Language="SFX">
 							<ShortName>Metal\UEWWISEFootsteps_Metal_2.wav</ShortName>
 							<Path>SFX\Metal\UEWWISEFootsteps_Metal_2_10C4C929.wem</Path>
@@ -70,9 +82,17 @@
 							<ShortName>Stone_Steps\UEFPS_Footsteps_Stone_1.wav</ShortName>
 							<Path>SFX\Stone_Steps\UEFPS_Footsteps_Stone_1_10C4C929.wem</Path>
 						</File>
+						<File Id="503058383" Language="SFX">
+							<ShortName>foley\foley\foley_05.wav</ShortName>
+							<Path>SFX\foley\foley\foley_05_10C4C929.wem</Path>
+						</File>
 						<File Id="549930857" Language="SFX">
 							<ShortName>Wood\UEWWISEFootsteps_Wood_1.wav</ShortName>
 							<Path>SFX\Wood\UEWWISEFootsteps_Wood_1_10C4C929.wem</Path>
+						</File>
+						<File Id="592964946" Language="SFX">
+							<ShortName>foley\foley\foley_04.wav</ShortName>
+							<Path>SFX\foley\foley\foley_04_2166DD06.wem</Path>
 						</File>
 						<File Id="665744122" Language="SFX">
 							<ShortName>Metal\UEWWISEFootsteps_Metal_3.wav</ShortName>
@@ -105,6 +125,10 @@
 						<File Id="918703429" Language="SFX">
 							<ShortName>Metal\UEWWISEFootsteps_Metal_4.wav</ShortName>
 							<Path>SFX\Metal\UEWWISEFootsteps_Metal_4_10C4C929.wem</Path>
+						</File>
+						<File Id="932650132" Language="SFX">
+							<ShortName>foley\foley\foley_03.wav</ShortName>
+							<Path>SFX\foley\foley\foley_03_10C4C929.wem</Path>
 						</File>
 						<File Id="1021835013" Language="SFX">
 							<ShortName>Wood\UEWWISEFootsteps_Wood_6.wav</ShortName>

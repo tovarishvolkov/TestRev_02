@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="testSoundcaster Session" ID="{58A0B8D5-620C-45B6-90FD-A07D0B95FCCB}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="fts" ID="{22735D46-C08C-448D-B74A-A029EF19D4D4}" WorkUnitID="{3136BEED-7446-4028-A4FD-0A4380CE5584}"/>
+							<ObjectRef Name="chr_fts" ID="{22735D46-C08C-448D-B74A-A029EF19D4D4}" WorkUnitID="{3136BEED-7446-4028-A4FD-0A4380CE5584}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>
